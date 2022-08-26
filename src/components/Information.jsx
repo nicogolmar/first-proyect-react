@@ -16,10 +16,11 @@ const setPersona=()=>{
 
     setInfo({...PersonaAbr,userName:"Nicolas",
     age:27,lastName:"Golmar"
-    
+        
     })
 }
-console.log(PersonaAbr);    
+    console.log(info);
+  
 
 
 
