@@ -12,10 +12,10 @@ const Information=()=>
 const [info, setInfo] = useState(PersonaAbr);
 
 
+
 const setPersona=()=>{
 
-    setInfo({...PersonaAbr,userName:"Nicolas",
-    age:27,lastName:"Golmar"
+    setInfo({...PersonaAbr,userName:"Nicolas",lastName:"Golmar"
         
     })
 }

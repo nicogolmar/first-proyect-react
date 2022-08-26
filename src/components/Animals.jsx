@@ -14,10 +14,10 @@ const Animals=()=>{
     
 
 const addAnimals=()=>{
-
+if(animals.length===1){
     setAnimals([...animals,...animales].join("-"));
+    }
 }
-
 const resetAnimals=()=>{
 
     setAnimals([animal]);
